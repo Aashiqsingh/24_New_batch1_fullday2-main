@@ -1,0 +1,15 @@
+function --- function keyword 
+
+function demo(){
+
+}
+
+there are four types of function
+1. without return without argument
+2. with return without argument
+3. without return with argument
+4. with return with argument
+
+
+return keyword 
+

@@ -1,0 +1,13 @@
+JSON -- Javascript object notation 
+
+JSOn : key : value 
+{
+
+}
+
+var student = {
+    roll: 12,
+    name:"Rohan",
+    email:"rohan@gmail.com",
+    
+}
