@@ -50,22 +50,79 @@ var company = [
                 isMarried:true,
                 child:2,
                 salary:105000,
+                gender:"female"
             },
             {
                 name:"aarti",
                 age:25,
                 department:"tester",
                 isMarried:false,
-                child:1,
+                child:0,
                 salary:90000,
+                gender:"female",
             }
         ]
     }
 ]
 
+// var totalSalaryOfFacebook = company.find((comp)=> comp.name === "facebook").employees.reduce((x,y)=>{
+//     return x + y.salary;
+// },0)
+// console.log(totalSalaryOfFacebook) //;
 
-var x=  company.find((comp)=>comp.name === "google").employees.filter((emp)=>emp.salary > 90000)
-console.log(x);
+// var totalSalaryOfFacebook = company.find((comp)=> comp.name === "facebook").employees.reduce((sum,emp)=> sum + emp.salary,0)
+// console.log(totalSalaryOfFacebook) //;
+
+
+// var x = company.find((comp)=>comp.name==="facebook").employees.filter((emp)=>emp.salary);                      
+// console.log(x);
+
+// var comp = company.find((fac)=>fac.name ==="Facebook").employees.filter((fac)=>fac.salary);
+// console.log(comp);
+
+// var totalSalary = company.find((cmp) => cmp.name === "facebook").employees.reduce(
+//     (sum, emp) => sum + emp.salary,
+//     0 
+//   );
+  
+//   console.log(totalSalary);
+
+
+// var salary = salary.find((salary)=> salary == "facebook"
+// console.log(salary);
+
+// var TotSalary =  company.map((comp)=>comp.employees.salary.reduce((sum,salary)=>{return sum + salary},0)
+// console.log("Total : " + TotSalary);
+
+
+// var com= company.map((comp)=> comp.employees.filter((emp)=>emp.department ==="HR"));
+// console.log(com);
+
+// var x = company.find((comp)=> comp.name === "facebook").employees.filter((emp)=> emp.gender === "female" && emp.salary > 90000)
+
+// console.log(x);
+
+
+// var data = company.map((comp)=> comp.employees.filter((emp)=> emp.isMarried))
+// console.log(data);
+
+
+
+// var marriedPerson = company.map((comp)=>{
+//     return comp.employees.filter((emp)=>{
+//         return emp.isMarried === true
+//     })
+// })
+
+// console.log(marriedPerson);
+
+
+
+
+
+
+// var x=  company.find((comp)=>comp.name === "google").employees.filter((emp)=>emp.salary > 90000)
+// console.log(x);
 
 
 
