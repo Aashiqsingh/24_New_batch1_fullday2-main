@@ -1,0 +1,9 @@
+Javascript -- To manipulate the DOM (document object model)
+
+
+When you want to identify tags.
+1. id --  uniqui
+2. name -- multiple 
+3. class -- multiple
+5. tagname -- multiple
+5. querrySelector --

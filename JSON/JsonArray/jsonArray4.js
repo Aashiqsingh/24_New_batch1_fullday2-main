@@ -83,6 +83,11 @@ var departments = [
 ]
 
 
+// var TotalSalary = departments.map((dapart)=> dapart.employees.reduce((sum,emp)=> sum + emp.salary,0))
+// console.log(TotalSalary);
+
+
+
 // var departFemale = departments.map((depart)=> depart.employees.filter((emp)=>emp.gender === "female"))
 // console.log(departFemale);
 
