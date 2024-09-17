@@ -7,3 +7,15 @@ When you want to identify tags.
 3. class -- multiple
 5. tagname -- multiple
 5. querrySelector --
+
+
+
+Event :
+onclick
+ondblclick
+
+
+key event :
+onkeypress
+onkeydown
+onkeyup
