@@ -30,7 +30,16 @@
         output.style.backgroundColor = "red"
 
 
+
         }
     
+    }
+
+    function circle(){
+        var output = document.getElementById("output")
+        output.style.height = "500px"
+        output.style.width = "500px"
+
+        output.style.transition = "2s"
     }
 
