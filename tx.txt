@@ -55,3 +55,72 @@ JavaScript use?
 
 
 
+
+let boxes = document.querySelectorAll('.box')
+let msgContainer = document.querySelector(".msg-container")
+console.log(boxes)
+
+let winPatterns = [
+    [0,1,2],
+    [3,4,5],
+    [6,7,8],
+    [0,3,6],
+    [1,4,7],
+    [2,5,8],
+    [0,4,8],
+    [2,4,6]
+]
+let playerO = true
+let count = 0
+
+
+
+boxes.forEach((box)=>{
+    box.addEventListener('click',()=>{
+        // button print X or O
+        if(playerO){
+            box.innerText = "O"
+            playerO = false
+        }
+        else{
+            box.innerText = 'X'
+            playerO = true
+        }
+        box.disabled = true
+        count ++
+
+        let win = checkWinner()
+
+        if(count == 9){
+            console.log("Match Draw")
+        }
+    })
+
+})
+
+const showWinner=(Winner)=>{
+    console.log("who won : ",Winner)
+    msg.innerText = "Congo...Winner is :"+Winner
+    msgContainer.classList.remove('hide')
+}
+
+const checkWinner = () =>{
+    for(let pattern of winPatterns){
+        console.log("------> ",boxes[pattern[0]].innerText) //: o
+        console.log("------> ",boxes[pattern[1]].innerText)// : o 
+        console.log("------> ",boxes[pattern[2]].innerText) //: o
+
+        let posVal1 = boxes[pattern[0]].innerText// x or O
+        let posVal2 = boxes[pattern[1]].innerText
+        let posVal3 = boxes[pattern[2]].innerText
+
+        if(posVal1 != "" && posVal2 != "" && posVal3 != ""){
+            if(posVal1 == posVal2 && posVal2 == posVal3){
+                console.log("u won")
+                showWinner(posVal1)
+                return true
+            }
+
+        }
+    }
+}
