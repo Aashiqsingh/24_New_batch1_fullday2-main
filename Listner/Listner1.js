@@ -1,19 +1,14 @@
-var btn = document.getElementById("btn")
+var txt = document.getElementById("txt");
 
-btn.addEventListener("click",()=>{
+txt.addEventListener("click",()=>{
 
-    // alert("form submiteed...");
-    console.log("Form submitted successfully...");
-    
+    // alert("hello..")
+    txt.innerHTML = "Royal technosoft pvt ltd.."
 })
 
-btn.addEventListener("dblclick",()=>{
-
-    btn.style.backgroundColor = "red";
+txt.addEventListener("dblclick",()=>{
+    txt.style.color = "red"
 })
-
-btn.addEventListener("mouseenter",()=>{
-
-    btn.style.height = "100px";
-    btn.style.width = "200px";
+txt.addEventListener("mouseenter",()=>{
+    txt.style.backgroundColor = "green";
 })
