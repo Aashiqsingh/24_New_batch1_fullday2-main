@@ -15,6 +15,9 @@ submit.addEventListener("submit",(event)=>{
     let mobReg = /[6-9]{1}[0-9]{9}$/;
     let userName = /[A-Z]{1}[A-Za-z]+[0-9]+$/;
 
+    // let email = /[a-z0-9]+$/
+    // let email = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
     if(name.value.match(userName))
     {
         output.innerHTML = "Name is valid"
