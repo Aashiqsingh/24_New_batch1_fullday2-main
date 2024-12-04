@@ -32,19 +32,25 @@ const updateUser = (user)=>{
     idlable.innerHTML = "Id"
     let idInput = document.createElement("input")
     idInput.type = "text"
+    idInput.className = "input-group input-group-sm mb-3"
+
 
     let namelable = document.createElement("lable")
     namelable.innerHTML = "Name"
     let nameInput = document.createElement("input")
     nameInput.type = "text"
+    nameInput.className = "input-group input-group-sm mb-3"
 
     let agelable = document.createElement("lable")
     agelable.innerHTML = "Age"
     let ageInput = document.createElement("input")
     ageInput.type = "text"
+    ageInput.className = "input-group input-group-sm mb-3"
+
 
     let subBtn = document.createElement("input")
     subBtn.type = "submit"
+    subBtn.className = "btn btn-primary"
 
     // var newUser = {
     //     name:idInput.value,
