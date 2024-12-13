@@ -111,12 +111,29 @@ var company = [
           email: "ava.rodriguez@healthcarehub.com",
           phone: "555-4444",
           salary: 79000
-        }
+        },
+        {
+            id: 3,
+            name: "Aman singh",
+            age: 23,
+            position: "HR",
+            email: "aman@gmail.com",
+            phone: "897239847",
+            salary: 32000
+          }
       ],
     }
   ]
 
 
+
+let employeePosition = company.find((comp)=> comp.employees.some((emp)=> emp.name === "Emily Davis")).employees.find((emp)=> emp.name ==="Emily Davis").position
+console.log(employeePosition);
+
+
+//   var x = company.reduce((sum,comp)=> sum + comp.employees.length ,0)
+//   console.log(x);
+  
 
 
 
