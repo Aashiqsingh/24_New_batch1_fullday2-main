@@ -127,8 +127,23 @@ var company = [
 
 
 
-let employeePosition = company.find((comp)=> comp.employees.some((emp)=> emp.name === "Emily Davis")).employees.find((emp)=> emp.name ==="Emily Davis").position
-console.log(employeePosition);
+  // var x = company.find((comp)=> comp.employees.find((emp)=> emp.name == "Liam Wilson")).companyname
+  // console.log(x);
+  
+
+
+
+
+
+
+  // var x = company.map((comp)=> comp.employees.map((emp)=> emp.position))
+  // console.log(x);
+  
+
+
+
+// let employeePosition = company.find((comp)=> comp.employees.some((emp)=> emp.name === "Emily Davis")).employees.find((emp)=> emp.name ==="Emily Davis").position
+// console.log(employeePosition);
 
 
 //   var x = company.reduce((sum,comp)=> sum + comp.employees.length ,0)
