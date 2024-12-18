@@ -65,14 +65,54 @@ var company = [
     }
 ]
 
+// var x = company.map((comp)=>{
+//     return comp.employees.reduce((sum,emp)=>{
+//         return sum + emp.salary
+//     },0)
+// }).reduce((sum,emp)=>{
+//     return sum + emp
+// },0)
 
-var x = company.find((comp)=> comp.name === "facebook").employees.filter((emp)=> emp.gender === "female")
-console.log(x);
+
+// var x = company.map((comp)=> comp.employees.reduce((sum,emp)=> sum + emp.salary ,0)).reduce((sum,emp)=> sum + emp,0)
+
+
+// console.log(x);
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+// var sum = 0;
+// for(let i=0;i<company.length;i++){
+
+//     var totalSalary = company[i].employees
+    
+// }
+// for(let i=0;i<totalSalary.length;i++){
+    
+//     sum = sum + totalSalary[i].salary
+// }
+// console.log(sum);
+
+
+
+
+
+
+
+
+// var x = company.find((comp)=> comp.name === "facebook").employees.filter((emp)=> emp.gender === "female")
+// console.log(x);
 
 // var x = company.filter((comp)=>{
 //     return comp.name === "facebook"
