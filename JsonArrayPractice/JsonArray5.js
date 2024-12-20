@@ -73,4 +73,14 @@ var departments = [
     },
 ]
 
-console.log(departments);
+// console.log(departments);
+
+// var x = departments.map((depart)=> depart.employees.map((emp)=> emp.name))
+// console.log(x);
+
+departments.forEach((depart)=>{
+    depart.employees.forEach((emp)=>{
+        console.log(emp.name);
+        
+    })
+})
