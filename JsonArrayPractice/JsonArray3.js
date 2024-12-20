@@ -65,6 +65,32 @@ var company = [
     }
 ]
 
+// var x = company.filter((comp)=> comp.employees.find((emp)=> emp.department === "tester")).map((comp)=> comp.name)
+// console.log(x);
+
+
+
+
+// var x = company.find((comp)=> comp.employees.find((emp)=> emp.department === "tester")).name
+// console.log(x);
+
+
+
+
+
+// var x = company.reduce((sum , comp)=> sum + comp.employees.length,0)
+// console.log(x);
+
+
+
+
+
+// var x = company.map((comp)=> comp.employees.filter((emp)=> emp.department == "HR"))
+// console.log(x);
+
+
+
+
 // var x = company.map((comp)=>{
 //     return comp.employees.reduce((sum,emp)=>{
 //         return sum + emp.salary
