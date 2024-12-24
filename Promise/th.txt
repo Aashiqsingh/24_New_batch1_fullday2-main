@@ -1,0 +1,43 @@
+Promise --> fullfilled  
+
+
+promise -- 3 stages --> pending / fullfil / rejject 
+
+
+javaScript bydefault --> non- synchronous
+
+
+
+Promise : javaScript  clas
+
+1. non- synchronous
+
+****************************
+$$$$$$$$$$$$$$$$$$$$$$$$$$$ --> 2min 
+*undefined*undefined*undefined*undefined*undefined*undefined
+
+
+
+2. synchronous
+
+*******************************
+################################## -- > 4min 
+
+*#*#*#*# 
+
+
+
+there are two types to acheive synchronous 
+1. then , catch -- block sync
+2. async , await  -- function sync
+
+
+
+{
+
+}
+
+
+(){
+
+}
