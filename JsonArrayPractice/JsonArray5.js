@@ -38,6 +38,12 @@ var departments = [
                 gender:"female",
                 isActive:false
             },
+            {
+                name:"prakash",
+                age:40,
+                gender:"male",
+                isActive:true
+            }
         ]
     },
     {
@@ -73,14 +79,35 @@ var departments = [
     },
 ]
 
+var u = departments.map((det)=>det.employees.filter((emp)=>emp.name.includes("i")))
+ console.log(u);
+
+
+// var x = departments.find((depart)=> depart.employees.find((emp)=> emp.name === "payal")).name
+// console.log(x);
+
+
+
+
+// var totalEmployees = departments.reduce((total, dept) => total + dept.employees.length, 0);
+// console.log(totalEmployees);
+
+
+// var ag = departments.find((dep)=>dep.name =="HR").employees.filter((emo)=>emo.gender == "female")
+//   console.log(ag);
+
+
+
+
+
 // console.log(departments);
 
 // var x = departments.map((depart)=> depart.employees.map((emp)=> emp.name))
 // console.log(x);
 
-departments.forEach((depart)=>{
-    depart.employees.forEach((emp)=>{
-        console.log(emp.name);
+// departments.forEach((depart)=>{
+//     depart.employees.forEach((emp)=>{
+//         console.log(emp.name);
         
-    })
-})
+//     })
+// })
