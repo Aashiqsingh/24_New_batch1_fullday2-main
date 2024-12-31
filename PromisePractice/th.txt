@@ -1,0 +1,21 @@
+Promise --> pending (success , failure)
+
+Promise is class -- javaScript 
+
+
+-------------------------------------------
+
+there are two types of way
+1. non-synchronous
+    ex : ---------------------------
+        ##############################
+
+2. synchronous
+    ex : --------------------
+        ##############################
+
+
+
+there are two ways to achive synchronous 
+1. block  --- then catch
+2. function --- async await 
