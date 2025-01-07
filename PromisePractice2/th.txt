@@ -1,0 +1,19 @@
+Promise -->  pending (fullfill , reject) 
+
+
+javaScript Promise is a class
+
+
+javaScript --> non synchronous
+
+non synchron
+
+ex :  ---------------------------  3sec 
+        ###############################
+
+-#-#-#-#
+
+
+synchronous : 
+1. block sync --> then catch 
+2. function sync --> async await 
